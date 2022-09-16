@@ -1,0 +1,59 @@
+body{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form.inputForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+input.inputForm-entry {
+    height: 5vh;
+    width: 60vh;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 5px;
+}
+input.inputForm-submit {
+    height: 7vh;
+    margin-left: 5px;
+    border-radius: 4px;
+    font-size: 17px;
+    background-color: #a6de4fd4;
+    padding: 11px;
+}
+input.inputForm-submit:hover{
+    background-color: #547224d4;
+    color: white;
+}
+ul.tasks-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listItem {
+    border: 2px solid black;
+    margin: 4px;
+    padding: 7px;
+    border-radius: 5px;
+    width: 105vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listItem:hover{
+    background-color: rgb(229, 230, 227);
+}
+button.deletButton {
+    background-color: #ffa49e;
+    border: none;
+    padding: inherit;
+}
+button.deletButton:hover{
+    background-color: rgb(139, 26, 26);
+    color: white;
+}
