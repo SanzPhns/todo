@@ -1,6 +1,7 @@
 body{
     font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #8080801a;;
 }
 form.inputForm {
     display: flex;
@@ -40,7 +41,7 @@ ul.tasks-list {
     margin: 4px;
     padding: 7px;
     border-radius: 5px;
-    width: 105vh;
+    width: 93vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,9 +52,62 @@ ul.tasks-list {
 button.deletButton {
     background-color: #ffa49e;
     border: none;
-    padding: inherit;
+    /* padding: inherit; */
+    border: 1px solid black;
+    border-radius: 3px
+
+}
+button.editButton {
+    background-color: #f0e556;
+    border: none;
+    /* padding: inherit; */
+    border: 1px solid black;
+    margin-right: 10px;
+    border-radius: 3px
 }
 button.deletButton:hover{
     background-color: rgb(139, 26, 26);
-    color: white;
+    color: black;
+    background-color: #f33825;
+}
+button.editButton:hover{
+    background-color: rgb(251, 255, 0);
+    color: black;
+}
+form.editForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #80808033;
+}
+input.editForm-entry {
+    height: 5vh;
+    width: 60vh;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 5px;
+}
+input.editForm-submit {
+    height: 7vh;
+    margin-left: 5px;
+    border-radius: 4px;
+    font-size: 17px;
+    background-color: #ffeb3bd1;
+    padding: 11px;
+}
+input.editForm-submit:hover{
+    background-color: #fff01b;
+}
+
+.editForm {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    /* background-color: #e7e7e7e3; */
+    /* height: 35vh; */
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 7px; */
 }
