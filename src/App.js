@@ -61,8 +61,12 @@ const App = () => {
             <div key={id}>
             {task}
             </div>
+            <div className='buttons'>
             <button className='deletButton' 
             onClick={()=>handleDelete(id)}>Delete</button>
+            <button className='deletButton' 
+            onClick={()=>handleDelete(id)}>Delete</button>
+            </div>
             </div>
             ))}
             </ul>
